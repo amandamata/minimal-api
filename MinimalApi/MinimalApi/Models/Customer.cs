@@ -1,2 +1,2 @@
 ﻿namespace MinimalApi.Models;
-record Customer(Guid Id, string FullName);
+public record Customer(Guid Id, string FullName);
